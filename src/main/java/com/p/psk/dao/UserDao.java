@@ -13,8 +13,8 @@ public interface UserDao {
      * @param id
      * @return
      */
-    @Select("select * from user where id = #{id}")
-    public User getById(@Param("id") int id);
+    @Select("select * from sk_user where id = #{id}")
+    public User getById(@Param("id") long id);
 
 
 }
