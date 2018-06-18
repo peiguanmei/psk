@@ -37,7 +37,7 @@ public class SampleController {
 
     @RequestMapping("/db/get")
     public Result<User> getUserId() {
-        User user = userService.getUserId(1);
+        User user = userService.getUserId(18181818181L);
         return Result.success(user);
     }
 

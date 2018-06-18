@@ -11,7 +11,7 @@ public class UserService {
     @Autowired
     UserDao userDao;
 
-    public User getUserId(int id) {
+    public User getUserId(long id) {
         return userDao.getById(id);
     }
 }
